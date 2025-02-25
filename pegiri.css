@@ -1,0 +1,425 @@
+@font-face {
+    font-family: "vazir";
+    src: url("../fonts/vazir/Vazir-Medium-FD-WOL.woff") format("woff2"),
+
+}
+
+
+
+.nav-head{
+    background-color:#FEF9E1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 0;
+    width: 100%;
+    
+
+
+}
+.nav-main{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin: auto 0.5rem;
+   
+}
+
+
+
+
+.nav-btn{
+   
+   align-self: center;
+   background: transparent ;
+
+   justify-self: end;
+   font-size: 1.5rem;
+   border-color: transparent;
+   cursor: pointer;
+   color: #6D2323;
+   margin-left: 1rem;
+
+   padding: 0.375rem 0.75rem;
+   /* margin: auto 0.5rem; */
+   /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); */
+   
+}
+
+#nav-btn{
+   align-self: center;
+   background: transparent ;
+
+   justify-self: end;
+   font-size: 1.5rem;
+   border-color: transparent;
+   cursor: pointer;
+   color: #6D2323;
+
+   padding-left: 0;
+   /* margin: auto 0.5rem; */
+   /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); */
+
+}
+
+
+h1,
+h2,
+h3,
+h4{
+   font-family: "vazir", sans-serif;
+   line-height: 1.25;
+   
+}
+
+
+h1{
+   color: #6D2323;
+   font-size: 2rem;
+}
+
+h1 .brand{
+   margin-left: 0.75rem;
+   margin-right: 0.5rem;
+   background-color: #E5D0AC;
+   padding: 1px 15px ;
+   border-radius: 8px;
+   color: whitesmoke;
+
+   
+}
+
+/* .nav-head{
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+} */
+
+.nav-btn:hover{
+   color: #A31D1D;
+   box-shadow: 0 1px 1px rgb(0, 0, 0, 0.2);
+}
+
+
+
+
+.nav-bar1{
+   display: flex;
+   /* margin-left: 0; */
+   
+}
+a{
+   text-decoration: none;
+   font-family: "vazir";
+   color: #6D2323;
+}
+
+
+a:hover{
+   color: #A31D1D;
+}
+
+.nav-bar2 .button:hover{
+   background-color: #A31D1D;
+   color: #FEF9E1;
+   transition: 0.5s;
+}
+
+.nav-bar2 .button{
+   font-size: 1.5rem;
+   background-color: #6D2323;
+   color: #E5D0AC;
+   padding: 1px 15px ;
+   border-radius: 8px;
+}
+
+.nav-bar2{
+   /* display:none; */
+   padding: 0.375rem 0.75rem;
+   /* margin: auto 0.5rem; */
+   display: none;
+
+}
+.input{
+   border-radius: 15px;
+   border-color:transparent;
+   font-size: 0.85rem;
+   font-family:"vazir";
+   width: 300px;
+   margin-left: 1.5rem;
+   
+}
+
+.nav-bar3{
+   display: none;
+   gap: 2rem;
+   padding: 0.375rem 0.75rem;
+   /* margin: 0.5rem; */
+   
+   
+
+}
+
+
+.nav-bar3 .one{
+   border: 2px solid #A31D1D;
+   padding-left: 25px;
+   border-bottom: 0;
+   border-right: 0;
+   border-top:0 ;
+   
+}
+
+
+.nav-bar4{
+   display: none;
+   
+}
+.rahnema{
+   border: 2px solid #A31D1D;
+   padding-right: 25px;
+   border-bottom: 0;
+   border-left: 0;
+   border-top:0 ;
+
+}
+
+@media screen and (min-width:992px){
+   .nav-bar2{
+       display: flex;
+       gap: 0.85rem;
+       align-items: center;
+
+   }
+   .nav-bar3{
+       display: flex;
+       align-items: center;
+   }
+   .nav-btn{
+       display: none;
+       
+   }
+   #nav-btn{
+       display: felx;
+   }
+   .nav-bar4{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin: auto 0.5rem;
+       
+   }
+   .last-sec{
+       display: flex;
+       gap: 0.75rem;
+       margin-left: 0.5rem;
+   }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+.peygiri-container {
+
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin: 50px auto;
+    text-align: right;
+    font-family: Arial, sans-serif;
+}
+.peygiri-container h2 {
+    color: #6D2323;
+    border-right: 5px solid #6D2323;
+    padding-right: 10px;
+}
+.peygiri-container p, .peygiri-container ul {
+    font-size: 14px;
+    color: #555;
+    font-family: "vazir";
+}
+.peygiri-container input {
+    font-family: "vazir";
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.btn {
+    width: 100%;
+    background: #E5D0AC;
+    color: #6D2323;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "vazir";
+}
+.btn:hover {
+    background: #6D2323;
+    color: #FEF9E1;
+    transition: 1s;
+}
+
+
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+    padding-bottom: 2rem;
+    border: 2px solid lightgray;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+
+.footer-ic{
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+.footer-title{
+    font-family: "vazir";
+    font-size: 10px;
+}
+
+.footer-title h4{
+    margin-bottom: 3px;
+}
+
+.footer-title span{
+    color: darkgray;
+}
+
+
+@media (max-width:768px){
+    
+    .footer-icons{
+        flex: 0 0 calc(33.33% - 0.5rem);
+
+
+    }
+    
+    
+}
+
+@media screen and (min-width:997px) {
+
+    .footer-ic{
+        transform: translateX(-1rem);
+        transition:1s;
+
+    }
+    
+}
+
+
+
+.footer-section2{
+    margin-top: 0.5rem;
+    margin-right: 1.5rem;
+    font-family: "vazir";
+}
+ 
+.footer-brand h1{
+    margin-bottom: 0;
+    padding-top: 0;
+
+}
+
+.footer-p{
+    color: darkgray;
+    margin-top: 3.5rem;
+}
+
+.footer-info{
+    margin-top: 3.5rem;
+    color: darkgrey;
+    width: auto;
+}
+
+.footer-info .footer-number{
+    margin-bottom: 2px;
+   
+}
+
+.footer-info .footer-email{
+    margin-top: 2px;
+}
+
+.footer-brand{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    align-items: center;
+}
+
+/* .footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    margin-top: 3.5rem;
+} */
+.copyright{
+    margin-top: 5rem;
+    text-align: center;
+    background-color: #FEF9E1;
+    bottom: 0;
+    color: darkgray;
+    font-family: "vazir";
+    padding: 1.5px;
+}
+
+
+
+@media screen and (min-width:992px){
+    .footer-p{
+        width: 50%;
+    }
+
+    
+    .footer-first-title{
+        display: flex;
+        gap: 10rem;
+        /* justify-content: space-between; */
+    }
+    .new-div-footer{
+        width: 25%;
+        margin-left: 1rem;
+        border: 2px solid lightgray;
+        border-right: 0;
+        border-top: 0;
+        border-bottom: 0;
+        
+    }
+
+    
+    .footer-img{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+
+
+
+
+}
