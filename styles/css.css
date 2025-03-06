@@ -432,12 +432,12 @@ a:hover{
   }
   
   .slider::-webkit-scrollbar {
-    display: none; /* حذف اسکرول‌بار */
+    display: none; 
   }
   
   .card {
-    flex: 0 0 calc(25% - 1rem);
-    min-width: 250px;
+
+    min-width: 50px;
     background: white;
     padding: 20px;
     border-radius: 10px;
@@ -485,7 +485,6 @@ a:hover{
     margin-right: 1.5rem;
     margin-left: 1.5rem;
     justify-content: space-between;
-    gap: 10rem;
     flex-wrap: wrap;
     border-radius: 10px;
     /* width: 100%; */
