@@ -254,11 +254,18 @@ a:hover{
 }
 .peygiri-container input {
     font-family: "vazir";
-    width: 100%;
+    width: 320px;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+label {
+    font-family: "vazir";
+    font-size: 16px;
+    color: #6D2323;
+    margin-right: 10px;
 }
 .btn {
     width: 100%;
